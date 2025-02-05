@@ -14,14 +14,35 @@ This project is a **Plant Disease Recognition System** built using **Streamlit**
 
 ## 📂 Project Structure
 
+### What This README Covers:
+✅ Project Overview  
+✅ Features  
+✅ Installation & Setup Instructions  
+✅ Model Details  
+✅ Example Output  
+✅ Contribution Guidelines  
+✅ License & Contact  
 
 ---
 
 ## ⚙️ Installation & Setup  
 1️⃣ **Clone the Repository**  
 ```bash
+python -m venv venv
+source venv/bin/activate   # On macOS/Linux
+venv\Scripts\activate      # On Windows
+
+
+pip install -r requirements.txt
+
+streamlit run app.py
+
+pip install -r requirements.txt
+
 git clone https://github.com/your-username/plant-disease-recognition.git
 cd plant-disease-recognition
+
+
 Tomato___healthy_original: 100.00% confidence.
 Tomato___Bacterial_spot_original: 100.00% confidence.
 Tomato___Early_blight_original: 100.00% confidence.
@@ -32,14 +53,3 @@ Tomato___Spider_mites_original: 100.00% confidence.
 Tomato___Target_Spot_original: 100.00% confidence.
 Tomato___Tomato_mosaic_virus_original: 100.00% confidence.
 Tomato___Tomato_Yellow_Leaf_Curl_Virus_original: 100.00% confidence.
-
-### What This README Covers:
-✅ Project Overview  
-✅ Features  
-✅ Installation & Setup Instructions  
-✅ Model Details  
-✅ Example Output  
-✅ Contribution Guidelines  
-✅ License & Contact  
-
-This version keeps everything in a single structured **frame** while maintaining readability. You can replace placeholders (`your-username`, `your-email@example.com`) with actual details before uploading to GitHub. 🚀
